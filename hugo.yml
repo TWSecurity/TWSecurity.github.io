@@ -6,18 +6,17 @@ theme: PaperMod
 paginate: 20
 disqusShortname: yourdiscussshortname
 markup:
-  highlight:
-    style: github-dark
+    
 params:
-  author: John Doe
-  info: Full Stack DevOps and Magician
-  description: John Doe's personal website
-  keywords: 'blog,developer,personal'
-  avatarurl: images/avatar.jpg
-  faviconSVG: /img/favicon.svg
-  favicon_32: /img/favicon-32x32.png
-  favicon_16: /img/favicon-16x16.png
-  since: 2019
+  author: Travis Walter
+  info: Cybersecurity enthusiast
+  description: Travis Walter's personal website
+  keywords: 
+  avatarurl: 
+  faviconSVG: 
+  favicon_32: 
+  favicon_16: 
+  since: 2023
   enableTwemoji: true
   colorScheme: auto
   hidecolorschemetoggle: false
@@ -34,11 +33,6 @@ params:
       icon: fa fa-twitter fa-2x
       weight: 3
       url: 'https://twitter.com/johndoe/'
-taxonomies:
-  category: categories
-  series: series
-  tag: tags
-  author: authors
 menu:
   main:
     - name: Blog
