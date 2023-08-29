@@ -1,44 +1,28 @@
-baseURL: 
-languageCode: en-us
-title: Travis Website
-theme: PaperMod
+baseurl: ''
+title: 
+theme: hugo-coder
+languagecode: en
+defaultcontentlanguage: en
 
 paginate: 20
+
 disqusShortname: yourdiscussshortname
 markup:
-    
+  highlight:
+    style: github-dark
 params:
   author: Travis Walter
-  info: Cybersecurity enthusiast
-  description: Travis Walter's personal website
-  keywords: 
-  avatarurl: 
-  faviconSVG: 
-  favicon_32: 
-  favicon_16: 
-  since: 2023
-  enableTwemoji: true
+  info: '[Website still in progress]'
+  gravatar: homestar.jpg
   colorScheme: auto
   hidecolorschemetoggle: false
   social:
     - name: Github
       icon: fa fa-github fa-2x
       weight: 1
-      url: 'https://github.com/johndoe/'
-    - name: Gitlab
-      icon: fa fa-gitlab fa-2x
+      url: 'https://github.com/St3aIth'
+    - name: Linkedin
+      icon: fa fa-linkedin
       weight: 2
-      url: 'https://gitlab.com/johndoe/'
-    - name: Twitter
-      icon: fa fa-twitter fa-2x
-      weight: 3
-      url: 'https://twitter.com/johndoe/'
-menu:
-  main:
-    - name: Blog
-      weight: 1
-      url: posts/
-    - name: About
-      weight: 2
-      url: about/
+      url: 'https://www.linkedin.com/in/traviswalter18/'
 
