@@ -25,4 +25,7 @@ params:
       icon: fa fa-linkedin
       weight: 2
       url: 'https://www.linkedin.com/in/traviswalter18/'
-
+ 
+ 
+ googleTagManager:
+ id: G-XFP7E4TKJ5
