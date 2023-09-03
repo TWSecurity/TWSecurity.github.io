@@ -1,31 +1,70 @@
-baseurl: ''
-title: 
+baseURL: 
+title: Home
 theme: hugo-coder
-languagecode: en
-defaultcontentlanguage: en
+languageCode: en
+defaultContentLanguage: en
 
 paginate: 20
 
-disqusShortname: yourdiscussshortname
 markup:
   highlight:
     style: github-dark
+    
+     
 params:
   author: Travis Walter
-  info: '[Website still in progress]'
-  gravatar: homestar.jpg
+  description: Travis Walter's personal website
+  keywords: 'blog'
+  info: Aspiring Cybersecurity Blue Teamer
+  avatarURL: img/download (2).jpg
+  #gravatar: traviswalter18@gmail.com
+  #dateFormat: 'January 2, 2006'
+  #rtl: false
+  #maxSeeAlsoItems: 5
+  
+  enableTwemoji: true
   colorScheme: auto
   hidecolorschemetoggle: false
+  maxSeeAlsoItems: 5
+  
+  googleTagManager:
+    id: G-XFP7E4TKJ5
+
+ #This section is done 
   social:
     - name: Github
-      icon: fa fa-github fa-2x
+      icon: fa fa-2x fa-github
       weight: 1
-      url: 'https://github.com/St3aIth'
-    - name: Linkedin
-      icon: fa fa-linkedin
+      url: https://github.com/St3aIth
+    - name: LinkedIn
+      icon: fa fa-2x fa-linkedin
       weight: 2
-      url: 'https://www.linkedin.com/in/traviswalter18/'
- 
- 
- googleTagManager:
- id: G-XFP7E4TKJ5
+      url: https://www.linkedin.com/in/traviswalter18/
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  author: authors
+  
+ #This section is done 
+languages:
+  en:
+    languageName: ':uk:'
+    menu:
+      main:
+        - name: Blog
+          weight: 1
+          url: blog/
+        - name: About
+          weight: 2
+          url: about/
+  #This section controls whats displayed on screen
+    menu:
+      main:
+        - name: Blog
+          weight: 1
+          url: posts/
+        - name: About
+          weight: 2
+          url: about/
