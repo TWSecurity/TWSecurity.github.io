@@ -17,10 +17,6 @@ params:
   keywords: 'blog'
   info: Aspiring Cybersecurity Blue Teamer
   avatarURL: img/Capture8.PNG
-  #gravatar: traviswalter18@gmail.com
-  #dateFormat: 'January 2, 2006'
-  #rtl: false
-  #maxSeeAlsoItems: 5
   
   enableTwemoji: true
   colorScheme: auto
@@ -30,7 +26,7 @@ params:
   googleTagManager:
     id: G-XFP7E4TKJ5
 
- #This section is done 
+
   social:
     - name: Github
       icon: fa fa-2x fa-github
@@ -47,7 +43,6 @@ taxonomies:
   tag: tags
   author: authors
   
- #This section is done 
 languages:
   en:
     languageName: ':uk:'
