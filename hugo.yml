@@ -57,7 +57,7 @@ languages:
   #This section controls whats displayed on screen
     menu:
       main:
-        - name: Blog
+        - name: Write ups
           weight: 1
           url: posts/
         - name: About
