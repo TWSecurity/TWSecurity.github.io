@@ -15,7 +15,7 @@ params:
   author: Travis Walter
   description: Travis Walter's personal website
   keywords: 'blog'
-  info: Aspiring Cybersecurity Blue Teame
+  info: Aspiring Cybersecurity Blue Teamer
   avatarURL: img/Capture8.PNG
   
   enableTwemoji: true
@@ -31,7 +31,7 @@ params:
     - name: Github
       icon: fa fa-2x fa-github
       weight: 1
-      url: https://github.com/St3aIth
+      url: https://github.com/TWSecurity
     - name: LinkedIn
       icon: fa fa-2x fa-linkedin
       weight: 2
